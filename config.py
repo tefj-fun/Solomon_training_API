@@ -1,0 +1,10 @@
+# Configuration for example API usage
+BASE_URL = "http://dmg.local"
+LOGIN_ENDPOINT = "/api/v1/login"
+DATASET_ENDPOINT = "/api/v1/dataset"
+TRAINING_ENDPOINT = "/api/v1/training"
+TRAINING_INFO_ENDPOINT = "/api/v1/training/{id}"
+MODEL_DOWNLOAD_ENDPOINT = "/api/v1/dataset/{id}/model/{model_name}"
+MODEL_LIST_ENDPOINT = "/api/v1/dataset/{id}/model"
+DATASET_CONFIG_UPLOAD_ENDPOINT = "/api/v1/dataset/{id}/config"
+DATASET_IMAGE_UPLOAD_ENDPOINT = "/api/v1/dataset/{id}/image"
